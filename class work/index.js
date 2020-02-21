@@ -13,5 +13,36 @@
 // var number = alerts()
 // console.log(number)
 
+// let days = ['Mon', 'Tue', 'Wed', 'Thurs', 'Fri', 'Sat']
+// function create(array, data){
+//     array.push(data)
+//     console.log(array)
+// }
+// create(days, 'Sun')
 
-function 
+
+/*function testExample (a){
+    var greeting = 'Hi! my name is ' + a
+    return greeting
+}
+var name = 'Mubi'
+
+console.log(testExample(name))*/
+
+
+
+
+
+
+
+// var testExample = function(a){
+//     var greeting = 'Hi! my name is ' + a
+//     return greeting
+// }
+// var a = 'Mubi'
+// console.log(testExample(a))
+
+(function(){
+    var greeting = 'Hi! my name is Mubi'
+    console.log(greeting) 
+}() ) 
