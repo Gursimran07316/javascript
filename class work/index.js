@@ -18,7 +18,7 @@
 //     array.push(data)
 //     console.log(array)
 // }
-// create(days, 'Sun')
+// create(1days, 'Sun')
 
 
 /*function testExample (a){
@@ -42,7 +42,40 @@ console.log(testExample(name))*/
 // var a = 'Mubi'
 // console.log(testExample(a))
 
-(function(){
-    var greeting = 'Hi! my name is Mubi'
-    console.log(greeting) 
-}() ) 
+// (function(){
+//     var greeting = 'Hi! my name is Mubi'
+//     console.log(greeting) 
+// }() ) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

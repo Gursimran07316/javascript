@@ -5,9 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="./index.js"></script>
 </head>
 <body>
-    
+
+    <form>
+        ZIP: <br>
+        <input type="text" id="zip" onblur="fillCity();"><br>
+        City:<br>
+        <input type="text" id="city">
+    </form>
+
+
+    <script>
+        function fillCity(){
+            var zipCode = document.getElementById('zip').value 
+            var cityName = ''
+            switch(zipCode){
+                case '123':
+                cityName = 'KArachi'
+                break
+                case '124':
+                cityName = 'Lahore'
+                break
+                default:
+                cityName = 'no city found'
+                break
+            }
+            console.log(cityName)
+            document.getElementById('city').value = cityName
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form onsubmit="submitForm('myemail')">
+        <p>Email: <input type="email" id="myemail" ></p>
+        <input type="submit" value="submit">
+    </form>
+    <script>
+        function submitForm(elemId){
+            if(document.getElementById(elemId).value == ''){
+                alert('email is req')
+            } else{
+                alert(document.getElementById(elemId).value)
+            }
+
+        }
+    </script> -->
+    <!-- <input type="email" onblur="this.style.backgroundColor='green'">
+
+    <input type="email" onfocus="this.style.backgroundColor='yellow'">
+    <input type="email" onfocus="this.style.backgroundColor=changeColor(this)">
+
+     <input type="email" onfocus="this.style.backgroundColor='color(black)'" onblur='this.style.backgroundColor="color(grey)"'> 
+
+
+    <script>
+        function changeColor(a){
+            console.log('ok')
+        
+            a.style.backgroundColor = 'red'
+
+        }
+
+        // function color(black,grey){
+        //     a.style.backgroundColor = 'black'
+        // }
+    </script> -->
 </body>
 </html>
