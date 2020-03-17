@@ -29,7 +29,8 @@ var name = 'Mubi'
 
 console.log(testExample(name))*/
 
-
+let name = 'mubashir'
+console.log(name.substr(0,3))
 
 
 

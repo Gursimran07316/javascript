@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css" >
+</head>
+<body>
+    <h1>TIP Calculator</h1>
+        <label id="bam" for="bill-amount">How much was your bill</label><br>
+        <input placeholder="Total Bill" type="number" id="ba" name="bill-amount"><br>
+        <br>
+        <label id="bam" for="service">How was your service</label><br> 
+        <select id="service">
+            <option>--Choose an option--</option>
+            <option value="Bad">Bad</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+        </select><br>
+        <br>
+        <label id="bam" for="share">How many people are sharing it</label><br>
+        <input placeholder="No of peoples" type="number" id="shr" name="share"><br>
+        <br>
+        <button id="calc" onclick="calculate()"> Calculate</button>
+        <p id = 'result'></p>
+    <!-- <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form> -->
+</body>
+</html>

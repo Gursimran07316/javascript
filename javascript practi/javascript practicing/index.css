@@ -1,0 +1,28 @@
+h1 {
+    background-color: rgb(211, 104, 104);
+    text-align: center;
+    color: rgb(190, 235, 102);
+}
+body{
+    text-align: center;
+    background-color: rgb(148, 139, 139);
+}
+#bam{
+    font-size: 50px;
+}
+input{
+    width: 30%;
+    /* height: 100%; */
+    font-size: 30px;
+
+}
+select{
+    width: 30%;
+    /* height: 100%; */
+    font-size: 30px;
+
+}
+#result{
+    font-size: 30px;
+    color: indigo;
+}

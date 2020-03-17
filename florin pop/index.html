@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .image{
+            display: block;
+        }
+        .new{
+            width: 500px;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <p id="P1">Hello world</p>
+    <p id="P2">Hello world</p>
+    <p id="P3">Hello world</p>
+    <button onclick="myButton()">Click me</button> -->
+        <div>
+            <p>PSl</p>
+            <p>PSl</p>
+            <p>PSl</p>
+        </div>
+        <div id="me">
+            <p>PSl</p>
+            <p>PSl</p>
+        </div>
+        <button onclick="task()"> Click</button>
+        
+    <!-- <img src="./paper.png" class="image" id="image1" onclick="imageClass()"> -->
+
+
+    <script>
+        function task(){
+            var color =  document.getElementById('me').getElementsByTagName('p')
+            console.log(color)
+            for(var i = 0; i < color.length; i++){
+                color[i].style.fontSize = '25px'
+            }
+        }
+        // var paraList = document.getElementsByTagName('p')
+        
+        // function myButton(){
+        //     for(var i = 0; i < paraList.length ; i++ ){
+        //         paraList[i].innerHTML = 'ABc'
+        //         paraList[i].style.background = 'purple'
+
+        //     }
+       
+
+        
+            // document.getElementById('P1').style.float = 'right'
+            // document.getElementById('P2').style.textAlign = 'center'
+        // }
+
+        // function imageClass(){
+        //     var onClick = document.getElementById('image1').src = './rock.png'
+        //     document.getElementById('image1').className += ' new'
+        // }
+    </script>
+</body>
+</html>

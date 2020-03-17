@@ -18,5 +18,4 @@ let tempInFahrenheit = 100;
 let celcius = (tempInFahrenheit - 32) * 5/9;
 
 
-
 console.log(celcius)
