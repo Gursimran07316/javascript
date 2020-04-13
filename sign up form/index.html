@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
@@ -16,7 +15,7 @@
     <div class="container">
         <div>
             <h1>
-                Learn to code by watching others
+                Learn to code by <br/> watching others
             </h1>
             <p>
                 See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
@@ -31,19 +30,26 @@
             <form class="box" id="form" >
                 <div class="form-control">
                     <input type="text" id="firstName" placeholder="First Name" />
-                    <small>First Name cannot be empty</small>
+                    <img src="./icon-error.svg" alt="error-icon"/>
+                    <small></small>
                 </div>
                 <div class="form-control">
                     <input type="text" id="lastName" placeholder="Last Name" />
-                    <small>Last Name cannot be empty</small>
+                    <img src="./icon-error.svg" alt="error-icon"/>
+                    
+                    <small></small>
                 </div>
                 <div class="form-control">
                     <input type="email" id="email" placeholder="Email Address" />
-                    <small>Email cannot be empty</small>
+                    <img src="./icon-error.svg" alt="error-icon"/>
+                    
+                    <small></small>
                 </div>
                 <div class="form-control">
                     <input type="password" id="password" placeholder="Password" />
-                    <small>Password cannot be empty</small>
+                    <img src="./icon-error.svg" alt="error-icon"/>
+                    
+                    <small></small>
                 </div>
                 <button>  Claim your free trial </button>
                 <small>By clicking the button, you are agreeing to our <a href=#>Terms and Services</a> </small>
